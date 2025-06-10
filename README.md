@@ -8,7 +8,7 @@
 ## نصب
 
 ```bash
-composer require farbodtf/persian-validation
+composer require farbodtf/persian-validation:dev-main
 ```
 
 ## نحوه استفاده
