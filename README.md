@@ -43,14 +43,13 @@ $validator = Validator::make($request->all(), $rules);
 
 ## پشتیبانی از نسخه‌های لاراول
 
-- Laravel 10.x
 - Laravel 11.x
 - Laravel 12.x
 
 ## نیازمندی‌ها
 
-- PHP >= 8.1
-- Laravel >= 10.0
+- PHP >= 8.2
+- Laravel >= 11.0
 
 ## لایسنس
 
