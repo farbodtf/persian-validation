@@ -1,6 +1,6 @@
 <?php
 
-namespace Ftf\PersianValidation;
+namespace Farbodtf\PersianValidation;
 
 use Illuminate\Support\ServiceProvider;
 

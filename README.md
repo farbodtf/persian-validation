@@ -2,16 +2,13 @@
 
 پکیج اعتبارسنجی فارسی برای لاراول - ترجمه پیام‌های خطای اعتبارسنجی به فارسی
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/ftf/persian-validation.svg?style=flat-square)](https://packagist.org/packages/ftf/persian-validation)
-[![Total Downloads](https://img.shields.io/packagist/dt/ftf/persian-validation.svg?style=flat-square)](https://packagist.org/packages/ftf/persian-validation)
-[![License](https://img.shields.io/packagist/l/ftf/persian-validation.svg?style=flat-square)](https://packagist.org/packages/ftf/persian-validation)
 
 این پکیج پیام‌های خطای اعتبارسنجی لاراول را به فارسی ترجمه می‌کند.
 
 ## نصب
 
 ```bash
-composer require ftf/persian-validation
+composer require farbodtf/persian-validation
 ```
 
 ## نحوه استفاده
@@ -25,9 +22,10 @@ composer require ftf/persian-validation
 2. پکیج به صورت خودکار پیام‌های خطای اعتبارسنجی را به فارسی نمایش می‌دهد.
 
 ## مثال‌ها
+در Request یا Controller
 
 ```php
-// در Request یا Controller
+
 $rules = [
     'name' => 'required|min:3',
     'email' => 'required|email',
@@ -45,7 +43,6 @@ $validator = Validator::make($request->all(), $rules);
 
 ## پشتیبانی از نسخه‌های لاراول
 
-- Laravel 9.x
 - Laravel 10.x
 - Laravel 11.x
 - Laravel 12.x
@@ -53,7 +50,7 @@ $validator = Validator::make($request->all(), $rules);
 ## نیازمندی‌ها
 
 - PHP >= 8.1
-- Laravel >= 9.0
+- Laravel >= 10.0
 
 ## لایسنس
 
