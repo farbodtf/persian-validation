@@ -10,7 +10,12 @@
 ```bash
 composer require farbodtf/persian-validation:dev-main
 ```
+## دستور Publish
 
+
+```bash
+php artisan vendor:publish --provider="Farbodtf\PersianValidation\PersianValidationServiceProvider"
+```
 ## نحوه استفاده
 
 1. در فایل `config/app.php` مقدار `locale` را به `fa` تغییر دهید:
