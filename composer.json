@@ -1,5 +1,5 @@
 {
-    "name": "ftf/persian-validation",
+    "name": "farbodtf/persian-validation",
     "description": "پکیج اعتبارسنجی فارسی برای لاراول",
     "type": "laravel-package",
     "license": "MIT",
