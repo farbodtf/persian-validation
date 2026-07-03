@@ -16,13 +16,19 @@ composer require farbodtf/persian-validation
 
 ## نحوه استفاده
 
-1. در فایل `config/app.php` مقدار `locale` را به `fa` تغییر دهید:
+1. فایل‌های زبان را انتشار دهید:
 
-```php
-'locale' => 'fa',
+```bash
+php artisan vendor:publish --tag=persian-validation-lang
 ```
 
-2. پکیج به صورت خودکار پیام‌های خطای اعتبارسنجی را به فارسی نمایش می‌دهد.
+2. در فایل `.env` مقدار `locale` را به `fa` تغییر دهید:
+
+```
+APP_LOCALE=fa
+```
+
+3. پکیج به صورت خودکار پیام‌های خطای اعتبارسنجی را به فارسی نمایش می‌دهد.
 
 ## مثال‌ها
 
