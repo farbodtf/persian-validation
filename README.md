@@ -32,10 +32,9 @@ APP_LOCALE=fa
 
 ## مثال‌ها
 
-<div dir="ltr">
+ در Request یا Controller
 
 ```php
-// در Request یا Controller
 $rules = [
     'name' => 'required|min:3',
     'email' => 'required|email',
@@ -45,7 +44,6 @@ $rules = [
 $validator = Validator::make($request->all(), $rules);
 ```
 
-</div>
 
 پیام‌های خطا به صورت زیر نمایش داده می‌شوند:
 - "نام الزامی است"
