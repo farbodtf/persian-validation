@@ -26,6 +26,8 @@ composer require ftf/persian-validation
 
 ## مثال‌ها
 
+<div dir="ltr">
+
 ```php
 // در Request یا Controller
 $rules = [
@@ -36,6 +38,8 @@ $rules = [
 
 $validator = Validator::make($request->all(), $rules);
 ```
+
+</div>
 
 پیام‌های خطا به صورت زیر نمایش داده می‌شوند:
 - "نام الزامی است"
