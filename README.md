@@ -2,16 +2,16 @@
 
 پکیج اعتبارسنجی فارسی برای لاراول - ترجمه پیام‌های خطای اعتبارسنجی به فارسی
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/ftf/persian-validation.svg?style=flat-square)](https://packagist.org/packages/ftf/persian-validation)
-[![Total Downloads](https://img.shields.io/packagist/dt/ftf/persian-validation.svg?style=flat-square)](https://packagist.org/packages/ftf/persian-validation)
-[![License](https://img.shields.io/packagist/l/ftf/persian-validation.svg?style=flat-square)](https://packagist.org/packages/ftf/persian-validation)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/farbodtf/persian-validation.svg?style=flat-square)](https://packagist.org/packages/farbodtf/persian-validation)
+[![Total Downloads](https://img.shields.io/packagist/dt/farbodtf/persian-validation.svg?style=flat-square)](https://packagist.org/packages/farbodtf/persian-validation)
+[![License](https://img.shields.io/packagist/l/farbodtf/persian-validation.svg?style=flat-square)](https://packagist.org/packages/farbodtf/persian-validation)
 
 این پکیج پیام‌های خطای اعتبارسنجی لاراول را به فارسی ترجمه می‌کند.
 
 ## نصب
 
 ```bash
-composer require ftf/persian-validation
+composer require farbodtf/persian-validation
 ```
 
 ## نحوه استفاده
